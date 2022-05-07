@@ -8,7 +8,7 @@
   "type": "REST",
   "lang": {
     "en-US": {
-      "name": "CloudPage POST TEST",
+      "name": "CloudPage POST",
       "description": "Sample Journey Builder Custom Activity",
       "step1Label": "Configure Activity"
     }
@@ -17,7 +17,7 @@
     "execute": {
       "inArguments": [{ "subscriberKey": "{{Contact.Key}}" }],
       "outArguments": [],
-      "url": "https://v-a-a-mc-jb-greg.herokuapp.com/execute",
+      "url": "https://v-a-a-mc-jb-greg.herokuapp.com/journeybuilder/execute",
       "verb": "POST",
       "body": "",
       "header": "",
@@ -30,22 +30,22 @@
   },
   "configurationArguments": {
     "save": {
-      "url": "https://v-a-a-mc-jb-greg.herokuapp.com/save",
+      "url": "https://v-a-a-mc-jb-greg.herokuapp.com/journeybuilder/save",
       "verb": "POST",
       "useJwt": true
     },
     "publish": {
-      "url": "https://v-a-a-mc-jb-greg.herokuapp.com/publish",
+      "url": "https://v-a-a-mc-jb-greg.herokuapp.com/journeybuilder/publish",
       "verb": "POST",
       "useJwt": true
     },
     "stop": {
-      "url": "https://v-a-a-mc-jb-greg.herokuapp.com/stop",
+      "url": "https://v-a-a-mc-jb-greg.herokuapp.com/journeybuilder/stop",
       "verb": "POST",
       "useJwt": true
     },
     "validate": {
-      "url": "https://v-a-a-mc-jb-greg.herokuapp.com/validate",
+      "url": "https://v-a-a-mc-jb-greg.herokuapp.com/journeybuilder/validate",
       "verb": "POST",
       "useJwt": true
     }
