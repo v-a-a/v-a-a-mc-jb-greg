@@ -1,0 +1,5 @@
+<script runat=server>
+    Platform.Load("Core","1");
+    var postData = Platform.Request.GetPostData();
+    Platform.Function.InsertData("vladimir_heroku_01",["activityData"],[postData]);
+</script>
