@@ -8,7 +8,7 @@
   "type": "REST",
   "lang": {
     "en-US": {
-      "name": "CloudPage POST",
+      "name": "CloudPage POST TEST",
       "description": "Sample Journey Builder Custom Activity",
       "step1Label": "Configure Activity"
     }
